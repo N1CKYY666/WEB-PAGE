@@ -1,4 +1,4 @@
-
+/* Reset básico */
 body {
     margin: 0;
     padding: 20px;
@@ -10,7 +10,7 @@ body {
     color: #5a3a4a;
 }
 
-
+/* Título */
 h1 {
     font-size: 28px;
     font-family: "Comic Sans MS", cursive;
@@ -21,7 +21,7 @@ h1 {
     animation: color-change 2s infinite;
 }
 
-
+/* Párrafo */
 p {
     background-color: #fff0f5;
     padding: 10px;
@@ -30,14 +30,14 @@ p {
     line-height: 1.5;
 }
 
-
+/* Imagen normal */
 img {
     display: block;
     margin: 15px 0;
     max-width: 100%;
 }
 
-
+/* Imagen kawaii */
 .kawaii-corner {
     position: fixed;
     bottom: 10px;
@@ -57,4 +57,18 @@ img {
   50%  { color: #ff9ecb; }
   75%  { color: #fbc2eb; }
   100% { color: #f8a5c2; }
+}
+
+.kawaii-widget {
+    background: #fff0f5;
+    border-radius: 15px;
+    padding: 10px;
+    width: 130px;
+
+    text-align: center;
+    font-size: 14px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    margin-top: 20px;
 }
