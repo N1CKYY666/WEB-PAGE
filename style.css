@@ -1,43 +1,58 @@
+
 body {
+    margin: 0;
+    padding: 20px;
+
     font-family: "Comic Sans MS", "Arial Rounded MT Bold", cursive;
     font-size: 12px;
-    background-color: #ffe4f2; 
-    color: #5a3a4a; 
+
+    background-color: #ffe4f2;
+    color: #5a3a4a;
 }
 
+
 h1 {
-    color: #ff69b4; 
     font-size: 28px;
     font-family: "Comic Sans MS", cursive;
-    text-shadow: 2px 2px 0 #fff0f5; 
+
+    color: #ff69b4;
+    text-shadow: 2px 2px 0 #fff0f5;
+
+    animation: color-change 2s infinite;
 }
 
 
 p {
     background-color: #fff0f5;
-    padding: 8px;
+    padding: 10px;
     border-radius: 12px;
+
+    line-height: 1.5;
 }
 
-button {
-    background-color: #ffb6c1;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 15px;
-    color: white;
-    cursor: pointer;
+
+img {
+    display: block;
+    margin: 15px 0;
+    max-width: 100%;
 }
 
-button:hover {
-    background-color: #ff69b4;
-}
 
 .kawaii-corner {
     position: fixed;
     bottom: 10px;
     right: 10px;
+
     width: 50px;
     height: auto;
+
     z-index: 9999;
     pointer-events: none;
+}
+
+
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
 }
