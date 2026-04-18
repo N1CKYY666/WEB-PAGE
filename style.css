@@ -52,7 +52,9 @@ img {
 
 
 @keyframes color-change {
-  0%   { color: blue; }
-  50%  { color: red; }
-  100% { color: blue; }
+  0%   { color: #f8a5c2; }
+  25%  { color: #fbc2eb; }
+  50%  { color: #ff9ecb; }
+  75%  { color: #fbc2eb; }
+  100% { color: #f8a5c2; }
 }
