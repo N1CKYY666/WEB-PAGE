@@ -31,3 +31,13 @@ button {
 button:hover {
     background-color: #ff69b4;
 }
+
+.kawaii-corner {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: auto;
+    z-index: 9999;
+    pointer-events: none;
+}
